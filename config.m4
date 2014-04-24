@@ -10,5 +10,4 @@ if test "$PHP_LIBKAFKAS" != "no"; then
   PHP_ADD_LIBRARY(stdc++, "", LIBKAFKAS_SHARED_LIBADD)
   EXTRA_LDFLAGS="$EXTRA_LDFLAGS -lz -lsnappy -lkafka"  
   PHP_NEW_EXTENSION(libkafkas, libkafkas.cpp libkafkas_sock.cpp, $ext_shared)
-  dnl PHP_NEW_EXTENSION(libkafkas, libkafkas.cpp libkafkas_action.cpp libkafkas_sock.cpp, $ext_shared)
 fi
