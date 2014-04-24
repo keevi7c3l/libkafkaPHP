@@ -3,6 +3,7 @@ libkafkaPHP
 
 kafka PHP API. 
 
+Not compatible windows
 Dependencies
 ============
  adobe-research/libkafka
