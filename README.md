@@ -19,7 +19,7 @@ make install
 
 Examples
 ========
-<?php
+```<?php
 class tpKafka extends KafkaPHP
 {
 	public function __construct( )
@@ -40,3 +40,4 @@ $gKafka = new tpKafka();
 $gKafka->connect( $config );
 var_dump($gKafka->writeMsg("test","q1w2e3qqqqqq123456"));
 ?>
+```
