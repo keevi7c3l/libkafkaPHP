@@ -7,16 +7,15 @@ Dependencies
 ============
 
  adobe-research/libkafka
- 
+ https://github.com/adobe-research/libkafka
 Installation
 ============
-
-Supports both autoconf and maven builds:
+```
 phpize
 ./configure --with-php-config=/usr/local/php/bin/php-config LDFLAGS=-L/usr/local/lib
 make
 make install
-
+```
 Examples
 ========
 ```<?php
