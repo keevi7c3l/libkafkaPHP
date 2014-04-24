@@ -5,8 +5,8 @@ kafka PHP API.
 
 Dependencies
 ============
-
  adobe-research/libkafka
+ 
  https://github.com/adobe-research/libkafka
 Installation
 ============
