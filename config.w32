@@ -1,0 +1,12 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("libkafkas", "for libkafkas support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("libkafkas", "enable libkafkas support", "no");
+
+if (PHP_LIBKAFKAS != "no") {
+	EXTENSION("libkafkas", "libkafkas.cpp libkafkas_action.cpp libkafkas_sock.cpp");
+}
